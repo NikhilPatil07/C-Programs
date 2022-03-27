@@ -8,8 +8,8 @@ void main()
     scanf("%d",&length);
     printf("Enter the value of breadth :\n");
     scanf("%d",&breadth);
-   area=length*breadth;
-   printf("\nThe area of rectangle is : %d",area);
-   getch();
+    area=length*breadth;
+    printf("\nThe area of rectangle is : %d",area);
+    getch();
    
 }
