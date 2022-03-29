@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include<conio.h>
+void main()
+{
+	float pi = 3.14, r,c, volume, total;
+        clrscr();
+	printf("\nThe Value of Pi is   :%.2f", pi);
+	printf("\nEnter the Radius of Hemi Sphere :");
+	scanf("%f", &r);
+	c=2*pi*r*r;	
+	printf("\nThe Curved Surface Area of Hemi Sphere is : %.2f",c);
+	
+	total = 3*pi*r*r;
+	printf("\nThe Total Surface Area of Hemi Sphere is : %.2f ",total);
+	volume = 0.6666 * pi*r*r*r;
+	printf("\nThe volume of Hemi Sphere is : %.2f", volume);
+
+	getch();
+}
