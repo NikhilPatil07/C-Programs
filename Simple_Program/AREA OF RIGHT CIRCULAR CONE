@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include<conio.h>
+void main()
+{
+	float pi = 3.14, r, l, h, volume, csarea, totalsarea;
+	clrscr();
+
+	printf("\nThe Value of Pi is   : %.2f", pi);
+	printf("\n\nEnter the Radius of Right Circular Cone : ");
+	scanf("%f", &r);
+	printf("\n\nEnter the Length of Right Circular Cone : ");
+	scanf("%f", &l);
+
+	csarea = pi * r * l;
+	printf("\n\nThe Curved Surface Area of Right Circular Cone is  : %.2f", csarea);
+	totalsarea = pi * r * (l + r);
+	printf("\n\nThe Total Surface Area of Right Circular Cone is : %.2f",totalsarea);
+	
+	getch();
+}
