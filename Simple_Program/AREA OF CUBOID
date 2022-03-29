@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int l, h, b, volume, csarea, totalsarea;
+	clrscr();
+	printf("\nEnter the Lenght of Cuboid : ");
+	scanf("%d", &l);
+	printf("\nEnter the Height of Cuboid : ");
+	scanf("%d", &h);
+	printf("\nEnter the Breadth of Cuboid : ");
+	scanf("%d", &b);
+	csarea = 2 * h * (l + b);
+	printf("\nThe Curved Surface Area of the Cuboid is  : %d", csarea);
+	totalsarea = 2 * (l * b + b * h + l * h);
+	printf("\nThe Total Surface Area of Cuboid is : %d ", totalsarea);
+	volume = l * b * h;
+	printf("\nThe Volume of Cuboid is : %d", volume);
+
+	getch();
+}
